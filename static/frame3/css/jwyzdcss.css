@@ -1,0 +1,32 @@
+﻿/****** 头部 begin ********/
+.header .title
+{
+    background: rgba(0,0,0,0) url(images/headertitBG.png) repeat-x left top;
+    height: 88px;
+    line-height: 88px;
+}
+.header .title .box-left [data-role="BTButton"][data-type="text"], .header .title .box-left .btn[data-type="text"], .header .title .box-left [data-role="BTButton"][data-type="image"], .header .title .box-left .btn[data-type="image"]
+{
+    background-image: none  !important;
+}
+.header .title .box-right [data-role="BTButton"][data-type="text"], .header .title .box-right .btn[data-type="text"], .header .title .box-right [data-role="BTButton"][data-type="image"], .header .title .box-right .btn[data-type="image"]
+{
+    background-image: none  !important;
+}
+.header .title .box-left
+{
+    /*height: 90px;*/
+    border-right: 1px solid #6eb7e1;
+    padding-top: 5px;
+}
+ .header .title .box-right
+  {
+     /*height: 90px;*/
+      border-left: 1px solid #6eb7e1;
+     padding-top: 5px;
+  }
+/****** 头部 end ********/
+
+
+
+
